@@ -31,12 +31,12 @@ export const RecipeFinder = () => {
           <input
             ref={inputRef}
             type="text"
-            className="border border-black h-10 px-5 mx-5 w-80 rounded-xl focus:outline-none "
+            className="border h-10 px-5 mx-5 w-80 rounded-xl focus:outline-none "
             placeholder="Search for Recipes"
           />
           <button
             onClick={handleClick}
-            className="mx-5 px-5 rounded-xl active:scale-90 bg-green-700 font-bold text-white text-xl hover:bg-green-900"
+            className="mx-5 px-5 rounded-xl active:scale-90 bg-blue-500 font-bold text-white text-xl hover:bg-blue-700"
           >
             Search
           </button>
